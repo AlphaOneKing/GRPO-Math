@@ -1,0 +1,11 @@
+# 先按 CUDA 版本装 torch，再装其余依赖；vLLM 会锁定 torch 版本，建议先装 vllm 让它带上匹配的 torch
+torch
+trl>=0.20         # 需要 loss_type / epsilon_high / mask_truncated_completions；建议直接装最新版
+transformers
+peft
+datasets
+accelerate
+vllm              # 可选，生成提速明显；装不上就去掉 --use_vllm，评测加 --backend hf
+wandb             # 可选
+matplotlib
+pytest

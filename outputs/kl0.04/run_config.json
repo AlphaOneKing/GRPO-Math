@@ -1,0 +1,39 @@
+{
+  "exp": "kl0.04",
+  "prompt_style": "user",
+  "cli": {
+    "exp": "kl0.04",
+    "model": "/root/autodl-tmp/models/Qwen2.5-1.5B-Instruct",
+    "run_name": null,
+    "output_root": "outputs",
+    "num_train": null,
+    "max_steps": 300,
+    "lr": null,
+    "max_completion_length": 512,
+    "per_device_batch": 8,
+    "grad_accum": 4,
+    "full_finetune": false,
+    "lora_r": 32,
+    "use_vllm": true,
+    "wandb": false,
+    "seed": 42,
+    "num_generations": null,
+    "beta": null,
+    "loss_type": null,
+    "epsilon_high": null
+  },
+  "cfg": {
+    "rewards": [
+      "correctness",
+      "strict_format"
+    ],
+    "loss_type": "grpo",
+    "scale_rewards": "group",
+    "beta": 0.04,
+    "epsilon": 0.2,
+    "epsilon_high": null,
+    "num_generations": 8,
+    "overlong_penalty": false,
+    "mask_truncated_completions": false
+  }
+}

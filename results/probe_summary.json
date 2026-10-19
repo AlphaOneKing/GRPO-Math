@@ -1,0 +1,46 @@
+[
+  {
+    "style": "system",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "n_prompts": 16,
+    "G": 8,
+    "max_new_tokens": 512,
+    "temperature": 1.0,
+    "strict_format_rate": 0.5234,
+    "answer_tag_rate": 0.5547,
+    "boxed_rate": 0.0234,
+    "acc_strict": 0.2812,
+    "acc_lenient": 0.5391,
+    "trunc_rate": 0.0078,
+    "mean_tokens": 183.2,
+    "ambiguous_answer_rate": 0.1719,
+    "frac_zero_std": {
+      "baseline": 0.0,
+      "baseline+soft": 0.0,
+      "lenient+strict_fmt": 0.0
+    },
+    "minutes": 1.9
+  },
+  {
+    "style": "user",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "n_prompts": 16,
+    "G": 8,
+    "max_new_tokens": 512,
+    "temperature": 1.0,
+    "strict_format_rate": 0.6172,
+    "answer_tag_rate": 0.6953,
+    "boxed_rate": 0.0078,
+    "acc_strict": 0.3906,
+    "acc_lenient": 0.5469,
+    "trunc_rate": 0.0234,
+    "mean_tokens": 157.8,
+    "ambiguous_answer_rate": 0.2734,
+    "frac_zero_std": {
+      "baseline": 0.0625,
+      "baseline+soft": 0.0625,
+      "lenient+strict_fmt": 0.0625
+    },
+    "minutes": 1.7
+  }
+]

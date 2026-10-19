@@ -1,0 +1,373 @@
+source: results/base.jsonl
+
+########## 0 ##########
+{"gt": "16", "pred": "16", "correct": true, "correct_lenient": true, "format": true, "nums_in_answer": 1, "tokens": 121}
+<think>
+Let's denote the distance run by Ahito as \( A \).
+Micah ran 3.5 times what Amber ran, so Micah ran \( 3.5 \times 8 = 28 \) miles.
+The total distance run by all three is 52 miles.
+So we have: \( A + 28 + 8 = 52 \)
+Solving for \( A \): \( A = 52 - 28 - 8 = 16 \)
+</think>
+<answer>
+16
+</answer>
+
+########## 1 ##########
+{"gt": "240", "pred": null, "correct": false, "correct_lenient": true, "format": false, "nums_in_answer": 0, "tokens": 151}
+To determine how many sheets of paper Miguel uses every month, we can follow these steps:
+
+1. Calculate the number of sheets used per week:
+   - Miguel uses 2 pads of paper per week.
+   - Each pad contains 30 sheets.
+   - Therefore, the total number of sheets used per week is \(2 \times 30 = 60\) sheets.
+
+2. Convert weeks to months (assuming an average month has approximately 4 weeks):
+   - There are 4 weeks in a month.
+   - So, the number of sheets used per month would be \(60 \times 4 = 240\) sheets.
+
+Therefore, the final answer is 240 sheets of paper every month.
+
+########## 2 ##########
+{"gt": "80", "pred": "80", "correct": true, "correct_lenient": true, "format": true, "nums_in_answer": 1, "tokens": 125}
+<think>
+Let's denote the total number of students as \( x \).
+
+According to the given information, three-fourths of students have a desktop computer at home. Therefore, one-fourth of students do not have a desktop computer.
+
+We know that 20 students do not have desktop computers. So we can write the equation:
+
+\[ \frac{1}{4}x = 20 \]
+
+To find \( x \), we multiply both sides of the equation by 4:
+
+\[ x = 20 \times 4 \]
+</think>
+
+<answer>
+80
+</answer>
+
+########## 3 ##########
+{"gt": "15", "pred": "60", "correct": false, "correct_lenient": false, "format": true, "nums_in_answer": 1, "tokens": 197}
+<think>
+Let's denote Bill's age when he saw the comet for the first time as \( B \).
+Bill's dad was 30 years old when he saw the comet.
+
+When Bill saw the comet again, he was three times older than his dad at that time, so we have:
+\[ B = 3 \times (30 + x) \]
+where \( x \) is the number of years after Bill's dad saw the comet.
+
+Since the comet takes 75 years to orbit the sun, and it took \( x \) years from when Bill saw it last to when he saw it this time, we can write:
+\[ B - x = 75 \]
+
+Now we have two equations:
+1. \( B = 3(30 + x) \)
+2. \( B - x = 75 \)
+
+We need to solve these equations simultaneously.
+</think>
+<answer>
+60
+</answer>
+
+########## 4 ##########
+{"gt": "91", "pred": null, "correct": false, "correct_lenient": true, "format": false, "nums_in_answer": 0, "tokens": 296}
+To solve this problem, let's break it down into steps:
+
+1. **Initial number of trees**: Tom starts with 50 trees.
+
+2. **Tree growth and loss per year**:
+   - Trees planted: 10 trees/year
+   - Trees chopped down: 2 trees/year
+
+3. **Net change in trees per year**:
+   - Net increase = Trees planted - Trees chopped down = 10 - 2 = 8 trees/year
+
+4. **Total net change over 10 years**:
+   - Total net increase after 10 years = 8 trees/year * 10 years = 80 trees
+
+5. **Final number of trees before any deaths**:
+   - Final number of trees = Initial number + Total net increase = 50 + 80 = 130 trees
+
+6. **Trees that die due to death rate**:
+   - Death rate is 30%, so the number of trees that die = 30% of 130 trees = 0.30 * 130 = 39 trees
+
+7. **Number of trees remaining after some die**:
+   - Number of trees remaining = Final number of trees - Number of trees that died = 130 - 39 = 91 trees
+
+Therefore, the number of trees Tom has left after 10 years is 91.
+
+########## 5 ##########
+{"gt": "22", "pred": "22", "correct": true, "correct_lenient": true, "format": true, "nums_in_answer": 5, "tokens": 92}
+<think>
+Let's break down the problem:
+
+- On Wednesday, John picks 4 bananas.
+- On Thursday, he picks 6 bananas.
+- On Friday, he picks triple the number of bananas he picked on Wednesday.
+
+To find out how many bananas John has in total, we need to add up all these numbers.
+</think>
+
+<answer>
+4 + 6 + (3 * 4) = 22
+</answer>
+
+########## 6 ##########
+{"gt": "8", "pred": "8", "correct": true, "correct_lenient": true, "format": true, "nums_in_answer": 6, "tokens": 139}
+<think>
+Let's break down each activity time:
+- Yoga: 1 hour
+- Cooking class: 3 * 1 = 3 hours (since it's three times longer than yoga)
+- Cheese-tasting: 0.5 hours (half as long as the cooking class)
+- Museum tour: 0.5 * 3 = 1.5 hours (half as long as the cooking class)
+- Errands: 2 hours
+
+Now we sum up all these times to get the total duration.
+</think>
+
+<answer>
+1 + 3 + 0.5 + 1.5 + 2 = 8 hours
+</answer>
+
+########## 7 ##########
+{"gt": "11", "pred": "11", "correct": true, "correct_lenient": true, "format": true, "nums_in_answer": 9, "tokens": 182}
+<think>
+Let's denote the number of tubes of blue paint Ben has as B and the number of tubes of yellow paint Ben has as Y.
+
+B = 4 (blue paint)
+Y = 3 (yellow paint)
+
+Jasper has half as many tubes of blue paint as Ben: 
+J_blue = B / 2
+
+Jasper has three times as many tubes of yellow paint as Ben:
+J_yellow = 3 * Y
+
+Now we can calculate the total number of tubes Jasper has:
+Total_Jasper = J_blue + J_yellow
+
+We know that B = 4 and Y = 3 from the information given in the question.
+</think>
+
+<answer>
+Jasper has 6 tubes of blue paint and 9 tubes of yellow paint.
+Total_Jasper = 4/2 + 3*3 = 2+9 = 11
+</answer>
+
+########## 8 ##########
+{"gt": "25", "pred": "40", "correct": false, "correct_lenient": false, "format": true, "nums_in_answer": 1, "tokens": 92}
+<think>
+Let's denote the length of Elaina's usual concert as \( x \) minutes.
+
+According to the information given, the final concert is twice as long as her usual concert plus an additional 15 minutes for the encore. So we can write the equation:
+
+\[ 2x + 15 = 65 \]
+
+Now let's solve for \( x \).
+</think>
+
+<answer>
+40
+</answer>
+
+########## 9 ##########
+{"gt": "482", "pred": "582", "correct": false, "correct_lenient": false, "format": true, "nums_in_answer": 5, "tokens": 121}
+<think>
+The costs are broken down as follows: 
+- Cast: $200
+- Visit: $300 / hour * 0.5 hour = $150
+- Painkillers: $4/pill * 30 pills = $120
+- Parking: $6/hour * 2 hours = $12
+
+Total cost is the sum of these individual costs.
+</think>
+<answer>
+$200 + $150 + $120 + $12 = $582
+</answer>
+
+########## 10 ##########
+{"gt": "4", "pred": null, "correct": false, "correct_lenient": false, "format": false, "nums_in_answer": 0, "tokens": 151}
+To solve this problem, let's break it down into steps:
+
+1. Calculate the total cost of 3 loaves of bread:
+   - Each loaf costs $2
+   - Therefore, 3 loaves cost \(3 \times 2 = \$6\)
+
+2. Calculate the total cost of 2 bagels:
+   - Each bagel costs $1
+   - Therefore, 2 bagels cost \(2 \times 1 = \$2\)
+
+3. Find out how much more 3 loaves of bread cost compared to 2 bagels:
+   - The difference is \(6 - 2 = \$4\)
+
+So, 3 loaves of bread cost $4 more than 2 bagels.
+
+########## 11 ##########
+{"gt": "14", "pred": null, "correct": false, "correct_lenient": true, "format": false, "nums_in_answer": 0, "tokens": 168}
+In this problem, we need to calculate how many boxes of popsicle sticks Bob needs to buy in order to have enough for his project.
+
+1. First, let's determine how many boxes Bob needs: 
+   - He needs 56 popsicle sticks.
+   - Each box contains 8 popsicle sticks.
+   - Therefore, the number of boxes needed is \( \frac{56}{8} = 7 \) boxes.
+
+2. Next, we calculate the total cost based on the price per box:
+   - Each box costs $2.00.
+   - So, the total cost for 7 boxes is \( 7 \times 2 = \$14.00 \).
+
+Therefore, the total amount Bob will spend to build his project is **$14.00**.
+
+########## 12 ##########
+{"gt": "18", "pred": null, "correct": false, "correct_lenient": false, "format": false, "nums_in_answer": 0, "tokens": 286}
+To determine the total cost of purchasing 6 pounds of butter with the given discount, we can follow these steps:
+
+1. **Calculate the total amount of butter needed:**
+   Dennis needs to make 6 dozen croissants.
+
+2. **Determine the number of pounds required:**
+   Since 1 pound is used for every dozen croissants, Dennis will need 6 pounds of butter.
+
+3. **Apply the discount on butter:**
+   The store offers a promotion where buying one pound gets the second pound at half price. Therefore, for each pound purchased, Dennis only pays full price for the first pound and half price for the second pound.
+
+4. **Calculate the cost per pound after the discount:**
+   - Full price per pound = $4.00
+   - Discounted price per pound (first pound) = $4.00 / 2 = $2.00
+
+5. **Calculate the total cost for 6 pounds:**
+   - Cost for the first pound = $2.00
+   - Cost for the second pound = $2.00 / 2 = $1.00
+   - Total cost for 6 pounds = $2.00 + $1.00 = $3.00
+
+Therefore, the total cost for Dennis to purchase 6 pounds of butter is $3.00.
+
+########## 13 ##########
+{"gt": "12", "pred": "12", "correct": true, "correct_lenient": true, "format": true, "nums_in_answer": 1, "tokens": 184}
+<think>
+Let's denote the number of novels Regina has written this year as \( x \).
+According to the problem, 9 novels (last year) is 3/4 of the number of novels she has written this year. So we can write the equation: 
+\[ 9 = \frac{3}{4}x \]
+To find \( x \), we need to solve for it. First, multiply both sides by 4 to get rid of the fraction on the right side:
+\[ 9 \times 4 = 3x \]
+\[ 36 = 3x \]
+Now divide both sides by 3 to isolate \( x \):
+\[ x = \frac{36}{3} \]
+\[ x = 12 \]
+So, Regina has written 12 novels this year.
+</think>
+<answer>
+12
+</answer>
+
+########## 14 ##########
+{"gt": "319", "pred": "310", "correct": false, "correct_lenient": false, "format": true, "nums_in_answer": 1, "tokens": 142}
+<think>
+Alex initially invites 100 people via email.
+Each of these 100 people invites 2 friends, so there are \(100 \times 2 = 200\) additional invitations from friends.
+Alex then calls 10 of her friends who agree to bring their spouses, adding another 10 guests.
+
+Total initial invitations: \(100 + 200 = 300\)
+Adding the 10 spouse-inviting friends: \(300 + 10 = 310\)
+
+So far, Alex needs 310 seats.
+</think>
+<answer>
+310
+</answer>
+
+########## 15 ##########
+{"gt": "2", "pred": null, "correct": false, "correct_lenient": true, "format": false, "nums_in_answer": 0, "tokens": 61}
+In one tray, there will be 5 * 5 = 25 eggs.
+
+There are 48 + 2 = 50 eggs in total.
+
+So, she can make 50 / 25 = 2 trays. 
+
+Therefore, the answer is 2.
+
+########## 16 ##########
+{"gt": "72", "pred": "84", "correct": false, "correct_lenient": false, "format": true, "nums_in_answer": 1, "tokens": 89}
+<think>
+Let's break down the problem into two parts: 
+- The first half of the collection (6 toys) at $5 each
+- The second half of the collection (6 toys) at $7 each
+
+Total earnings = Earnings from first half + Earnings from second half
+= (6 * $5) + (6 * $7)
+</think>
+
+<answer>
+$84
+</answer>
+
+########## 17 ##########
+{"gt": "9500", "pred": "9500", "correct": true, "correct_lenient": true, "format": false, "nums_in_answer": 1, "tokens": 277}
+<think>
+Let's calculate the total cost of the house including the broker's fee and the transfer fee.
+
+The selling price of the house is $350,000.
+The broker's fee is 5% of the selling price: \( 350,000 \times 0.05 = 17,500 \).
+The transfer fee is 12% of the selling price: \( 350,000 \times 0.12 = 42,000 \).
+
+Now we add these amounts together with the original selling price to get the total cost: 
+\( 350,000 + 17,500 + 42,000 = 409,500 \).
+
+Mrs. Cruz's budget is $400,000.
+To find out how much more the total price of the house is compared to her budget, we subtract her budget from the total cost: 
+\( 409,500 - 400,000 = 9,500 \).
+
+Therefore, the total price of the house exceeds Mrs. Cruz's budget by $9,500.
+</answer>
+<answer>
+9500
+</answer>
+
+########## 18 ##########
+{"gt": "15", "pred": null, "correct": false, "correct_lenient": false, "format": false, "nums_in_answer": 0, "tokens": 395}
+To solve this problem, let's break down the expenses and profits:
+
+1. **Cost of ingredients**: Each gallon costs $3 (lemons) + $2 (sugar) = $5.
+
+2. **Revenue from sales**: They sell 20 glasses per gallon at $0.50 each, so for one gallon, their revenue is \(20 \times \$0.50 = \$10\).
+
+3. **Profit calculation**: The total profit is given as $25. This includes both the cost of ingredients and the revenue minus the cost of ingredients.
+
+4. **Total cost including profit**: Total cost including profit is \(\$5\) (cost of ingredients) + \(\$25\) (profit) = \$30.
+
+5. **Cost of ingredients per gallon**: Since the total cost including profit is $30 and we know that $5 goes towards the cost of ingredients, the remaining $25 must be the revenue from sales.
+
+6. **Cost of lemons per gallon**: We need to find out how much Juan and Carlos spent on lemons per gallon. Since the total cost of ingredients is $5 and the rest ($25) comes from the sale of lemonade, we can calculate the cost of lemons per gallon.
+
+7. **Cost of lemons per gallon**: Cost of lemons per gallon = Total cost of ingredients - Revenue from sales = $5 - $10 = -$5.
+
+However, since the negative value indicates an overestimation, we should correct our approach. Let's re-evaluate:
+
+- Total cost including profit: $30
+- Revenue from sales: $25
+
+So, the actual cost of ingredients is $5, which means the cost of lemons per gallon is actually $3 because the total cost of ingredients is already accounted for in the $5.
+
+Therefore, the amount spent on lemons per gallon is $3.
+
+########## 19 ##########
+{"gt": "54", "pred": null, "correct": false, "correct_lenient": false, "format": false, "nums_in_answer": 0, "tokens": 239}
+To solve this problem, let's break it down into steps:
+
+1. **Determine the time Ray takes for one mile on a cold day:**
+   - Ray swims a mile in 16 minutes.
+
+2. **Calculate the total time for three miles on a cold day:**
+   - Time for 3 miles = 3 * 16 minutes = 48 minutes
+
+3. **Determine the time Ray takes for one mile on a warm day:**
+   - Warm day swimming time = 2 + (2 * 16) = 2 + 32 = 34 minutes
+
+4. **Calculate the total time for three miles on a warm day:**
+   - Time for 3 miles = 3 * 34 minutes = 102 minutes
+
+5. **Find out how much longer Ray takes to swim 3 miles on a warm day compared to a cold day:**
+   - Difference in time = 102 minutes - 48 minutes = 54 minutes
+
+Therefore, Ray takes 54 minutes longer to swim 3 miles on a warm day compared to a cold day.

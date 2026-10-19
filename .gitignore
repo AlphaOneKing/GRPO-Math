@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# 个人材料与备份（不上传）
+_private/
+*.bak
+.DS_Store
+
+# 训练产物：只保留训练曲线和运行配置，不上传权重
+outputs/*/*
+!outputs/*/trainer_state.json
+!outputs/*/run_config.json
+outputs/smoke*/
+
+# 原始日志太大（10–50MB），只保留汇总
+logs/*.log
+
+# 模型与缓存
+hf_cache/
+models/
+wandb/
